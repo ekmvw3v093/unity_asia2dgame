@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 4487972849781977481}
   - component: {fileID: 4487972849781977480}
   - component: {fileID: 4487972849781977483}
-  - component: {fileID: -8847230207480391899}
-  - component: {fileID: 7520247616826237291}
-  - component: {fileID: -159730649136349294}
-  m_Layer: 7
-  m_Name: "\u5B50\u5F48"
+  - component: {fileID: 6252706833660903158}
+  - component: {fileID: -4244231548130518296}
+  - component: {fileID: 4549781656175433909}
+  m_Layer: 8
+  m_Name: "\u6575\u6A5F\u5B50\u5F48"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 12291d9aa888b41c58f66187eb386317, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9245283, g: 0.24750638, b: 0.24750638, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -108,7 +108,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!50 &-8847230207480391899
+--- !u!50 &6252706833660903158
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!70 &7520247616826237291
+--- !u!70 &-4244231548130518296
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,7 +145,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.3571428, y: 0.42857143}
   m_Direction: 1
---- !u!247 &-159730649136349294
+--- !u!247 &4549781656175433909
 ConstantForce2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,5 +154,5 @@ ConstantForce2D:
   m_GameObject: {fileID: 4487972849781977482}
   m_Enabled: 1
   m_Force: {x: 0, y: 0}
-  m_RelativeForce: {x: 100, y: 0}
+  m_RelativeForce: {x: 10, y: 0}
   m_Torque: 0
