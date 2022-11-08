@@ -1188,7 +1188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabExplosion: {fileID: 3479237586367471360, guid: a506f79c9bdeb524888eb8e6807f9343, type: 3}
-  nameTarget: 
+  nameTarget: "\u5B50\u5F48"
 --- !u!1 &1753370643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,7 +1835,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126378932}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.87, y: -0.43, z: 0}
+  m_LocalPosition: {x: -6.87, y: 1.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1925,7 +1925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabExplosion: {fileID: 3479237586367471360, guid: a506f79c9bdeb524888eb8e6807f9343, type: 3}
-  nameTarget: 
+  nameTarget: "\u6575\u6A5F"
 --- !u!1001 &2153375864076928146
 PrefabInstance:
   m_ObjectHideFlags: 0
